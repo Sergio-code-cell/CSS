@@ -22,13 +22,13 @@ p {
     color: black;
     background-color: plum;
     border: solid brown 5px;
-    width: 500px;
+    width: 700px;
     position: fixed;
 }
 img {
-    width: 640px;
-    height: 400px;
-    margin-left: 850px;
+    width: 700px;
+    height: 450px;
+    margin-left: 1050px;
     margin-right: 50px;
     margin-top: 15px;  
 }
