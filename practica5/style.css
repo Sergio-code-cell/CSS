@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+    color: purple;
+    background-color: #d8da3d;
+}
+h1 {
+    font-family: sans-serif;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+ul{
+    position:fixed;
+    left: 50px;
+    top: 100px;
+}
+p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 300px;
+    color: black;
+    background-color: plum;
+    border: solid brown 5px;
+    width: 500px;
+    position: fixed;
+}
+img {
+    width: 640px;
+    height: 400px;
+    margin-left: 850px;
+    margin-right: 50px;
+    margin-top: 15px;  
+}
