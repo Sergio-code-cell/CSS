@@ -1,0 +1,30 @@
+.h1-1 {
+    color:rgb(38, 0, 255);
+}
+.h1-2 {     /*el punto dice que es un estilo personalizado con CLASS*/
+    color:rgb(0, 128, 0)
+}
+.estilo1 {
+    background-color: rgb(138, 43, 226);
+    font-family:'Franklin Gothic Medium';
+    color: rgb(255, 228, 196);
+    width: 300px;
+    border: solid rgb(255, 0, 0) 2px;
+}
+.estilo2 {
+    background-color: rgb(201, 157, 157);
+    font-family:Impact;
+    color: rgb(0, 238, 255);
+    width: 300px;
+    border: solid rgb(0, 0, 0) 2px;
+
+    position:fixed;
+    right: 250px;
+    top: 40px;
+}
+#footer {
+    background-color: black;
+    color: white;
+    margin-top: 500px;
+    width: 100%;
+}
