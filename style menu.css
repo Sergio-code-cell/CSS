@@ -1,0 +1,15 @@
+#mhorizontal{
+    border: 3px solid grey;
+    width: 281.15px;
+}
+
+#mhorizontal a{
+   padding: 0px 25px 0px; 
+    text-decoration: none;  /*quita el subrayado del enlace*/
+    color: black;
+    background-color: blanchedalmond;
+    
+}
+#mhorizontal a:hover{background-color: aqua;}   /*HOVER pasar el rreton por encima*/
+#mhorizontal a:active{background-color: rgb(117, 117, 117);} /*AL SELECCIONAR*/
+#mhorizontal a:visited{background-color: rgb(255, 60, 60);}  /*LAS VISITADAS SE QUEDAN MARCADAS*/
