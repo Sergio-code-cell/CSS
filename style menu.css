@@ -1,15 +1,33 @@
-#mhorizontal{
+#menuhorizontal{
     border: 3px solid grey;
     width: 281.15px;
 }
 
-#mhorizontal a{
+#menuhorizontal a{
    padding: 0px 25px 0px; 
     text-decoration: none;  /*quita el subrayado del enlace*/
     color: black;
-    background-color: blanchedalmond;
+    background-color: blanchedalmond; 
+}
+#menuhorizontal a:hover{background-color: aqua;}   /*HOVER pasar el raton por encima*/
+#menuhorizontal a:active{background-color: rgb(117, 117, 117);} /*AL SELECCIONAR*/
+#menuhorizontal a:visited{background-color: rgb(255, 60, 60);}  /*LAS VISITADAS SE QUEDAN MARCADAS*/
+
+
+#menuvertical {
+    border: 3px solid grey;
+    width: 100px;
+    margin-top: 35px;
+}
+#menuvertical a {
+   padding: 5px; 
+    text-decoration: none;  
+    color: black;
+    background-color: blanchedalmond; 
+    display: block; 
+    text-align-last:center;
     
 }
-#mhorizontal a:hover{background-color: aqua;}   /*HOVER pasar el rreton por encima*/
-#mhorizontal a:active{background-color: rgb(117, 117, 117);} /*AL SELECCIONAR*/
-#mhorizontal a:visited{background-color: rgb(255, 60, 60);}  /*LAS VISITADAS SE QUEDAN MARCADAS*/
+#menuvertical a:hover{background-color: aqua;}   /*HOVER pasar el raton por encima*/
+#menuvertical a:active{background-color: rgb(117, 117, 117);} /*AL SELECCIONAR*/
+#menuvertical a:visited{background-color: rgb(255, 60, 60);}  /*LAS VISITADAS SE QUEDAN MARCADAS*/
