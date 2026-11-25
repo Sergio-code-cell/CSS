@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #d8d83c 300px, #eeee9c 300px);   /* LINEA BUSCADA CON IA PORQUE NO ME SALÍA POR MI CUENTA */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#header {
+    height: 160px;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    padding-left: 20px;
+    width: 100%;
+}
+
+#header .logo {
+    height: 130px;
+    width: 130px;
+    margin-top: 15px;
+}
+
+#nav {
+    width: 280px;
+    min-height: calc(100vh - 210px);   /* LINEA BUSCADA CON IA PORQUE NO ME SALÍA POR MI CUENTA */
+    float: left;
+    padding: 10px;
+    background-color: #d8d83c;
+}
+
+.titulossecundario {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    color: #b22244;
+    font-size: 17px;
+}
+
+.parrafossecundario {
+    font-size: 13px;
+    color: #8a8a45;
+}
+
+.menuvertical {
+    list-style: none;
+    width: 218px;
+    margin-left: 25px;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
+}
+
+.menuvertical a {
+    float: left;
+    width: 208px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+    background-color: white;
+}
+
+.menuvertical a:hover {background-color: rgb(233, 222, 161);}                  
+.menuvertical a:active {background-color: rgb(117, 117, 117);}   
+.menuvertical a:visited {background-color: rgb(90, 117, 169);} 
+
+
+#article {
+    margin-left: 300px;
+    min-height: calc(100vh - 210px);   /* LINEA BUSCADA CON IA PORQUE NO ME SALÍA POR MI CUENTA */
+    padding: 10px 20px;
+    background-color: #eeee9c;
+}
+
+.titulosprincipal {
+    clear: right;    /* LINEA BUSCADA PORQUE NO ME SALÍA CON OTRAS INSTRUCCIONES */                
+    margin-top: 15px;
+    padding: 3px 5px;
+    background-color: #f7f7c8;
+    color: #b22244;
+    font-size: 16px;
+}
+
+.parrafosprincipal {
+    font-size: 13px;
+    color: #777777;
+    text-align: left;
+}
+
+.foto {
+    float: right;
+    width: 388px;
+    height: 268px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+}
+
+
+#footer {
+    clear: both;
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #338000;
+    color: white;
+    font-size: 12px;
+    WIDTH: 100%;
+}
+
+#footer .enlaces {
+    float: left;
+}
+
+#footer .enlaces a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer .enlaces a:hover {
+    background-color: #336699;
+    color: white;
+}
+
+#footer .yo {
+    float: right;
+    margin-right: 13px;
+}
